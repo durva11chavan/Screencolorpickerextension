@@ -1,0 +1,58 @@
+body {
+  /* background-color: antiquewhite; */
+  background-color: #f1f5f9;
+}
+
+.wrapper {
+  width: 300px;
+  text-align: center;
+}
+
+.changeColorBtn {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  background: #facc15;
+  cursor: pointer;
+}
+
+.changeColorBtn:hover {
+  display: inline;
+  border-radius: 5px;
+  box-shadow: 0px 0px 2px 2px rgb(139, 138, 138);
+}
+
+body {
+  background: #f1f5f9;
+}
+.wrapper {
+  width: 300px;
+  text-align: center;
+}
+.changeColorBtn {
+  width: 200px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  padding: 5px;
+  background: #facc15;
+  cursor: pointer;
+}
+.colorGrid {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+}
+.selectedColor {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.colorValue {
+  margin-left: 5px;
+  font-weight: bold;
+}

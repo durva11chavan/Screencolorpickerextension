@@ -1,0 +1,24 @@
+{
+  "name" : "Colour Picker",
+  "description" : "A Colour Picker and Hex code display",
+  "version" : "1.0",
+  "manifest_version" : 3,
+  "background": {
+    "service_worker" : "background.js"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting"
+  ],
+  "action" :{
+    "default_popup": "popup.html"
+  },
+
+  "icons" : {
+    "16" : "/images/picker_16.png",
+    "32" : "/images/picker_32.png",
+    "48" : "/images/picker_48.png"
+  }
+}
